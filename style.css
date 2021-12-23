@@ -141,7 +141,7 @@ hr {
 
   hr {
     width: 15%;
-    color: lightgrey;
+    color: grey;
   }
 }
 
@@ -238,6 +238,29 @@ margin: 140px auto 0;
 
   .bjj-img {
     padding-top: 7px;
+  }
+}
+
+/* portfolio section */
+.portfolio{
+  margin: 100px auto 100px;
+}
+
+.portfolio h3{
+  font-weight: bold;
+}
+
+.portfolio img:hover{
+  width: 50%;
+}
+
+@media (max-width: 700px){
+  .portfolio{
+    margin: 10px auto 80px;
+  }
+
+  .portfolio h3{
+    margin-top: 50px;
   }
 }
 
